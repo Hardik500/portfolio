@@ -1,9 +1,10 @@
 {
   "name": "portfolio",
   "version": "1.0.0",
-  "homepage": "http://hardik500.github.io/portfolio",
+  "homepage": "http://hardik500.github.io/portfolio/",
   "private": true,
   "devDependencies": {
+    "gh-pages": "^2.0.1",
     "react-scripts": "^3.0.1"
   },
   "dependencies": {
@@ -18,7 +19,9 @@
     "eject": "react-scripts eject",
     "styles": "stylus -u autoprefixer-stylus ./src/css/style.styl -o ./src/css/style.css",
     "now-build": "npm run build && mv build dist",
-    "styles:watch": "npm run styles -- -w"
+    "styles:watch": "npm run styles -- -w",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "browserslist": [
     ">0.2%",
