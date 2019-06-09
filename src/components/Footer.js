@@ -11,7 +11,7 @@ class Footer extends React.Component {
       <React.Fragment>
       <section className="Footer">
         <div className="footer">
-          Made with <span role="img">❤️</span> by <a href="https://www.github.com/hardik500">Hardik Khandelwal</a>
+          Made with <span role="img" aria-label="love">❤️</span> by <a href="https://www.github.com/hardik500">Hardik Khandelwal</a>
         </div>
       </section>
       <span onClick={this.topFunction} title="Go to top">
