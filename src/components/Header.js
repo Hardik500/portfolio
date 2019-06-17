@@ -4,9 +4,6 @@ class Header extends React.Component {
   render() {
     return (
       <React.Fragment>
-        <div className="sides" id="navbar">
-          <a href="/" className="logo">LOGO</a>
-        </div>
         <div className="sides nav-right" id="navbar">
            <a href="#about" className="menu">About</a>
            <a href="#portfolio" className="menu">Portfolio</a>

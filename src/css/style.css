@@ -69,7 +69,8 @@ body::-webkit-scrollbar-thumb:hover {
   font-size: 1.2em;
   box-sizing: border-box;
   position: relative;
-  left: 250px;
+  float: right;
+  left: 300px;
   transition: 0.5s all;
 }
 
