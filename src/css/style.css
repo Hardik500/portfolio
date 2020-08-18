@@ -129,10 +129,11 @@ body::-webkit-scrollbar-thumb:hover {
   height: 50px;
   padding: 10px;
   border-radius: 50%;
+  margin: auto 10px;
 }
 
 .social-links img {
-  width: 50px;
+  width: auto;
   height: 50px;
 }
 
@@ -219,6 +220,7 @@ h1 {
   height: auto;
   margin: 0 auto;
   background: #fff;
+  text-align: center;
 }
 
 form {
