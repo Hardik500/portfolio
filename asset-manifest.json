@@ -1,15 +1,27 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.972ad1aa.chunk.css",
-    "main.js": "/portfolio/static/js/main.e94dd29b.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.e94dd29b.chunk.js.map",
-    "runtime~main.js": "/portfolio/static/js/runtime~main.f308c8e6.js",
-    "runtime~main.js.map": "/portfolio/static/js/runtime~main.f308c8e6.js.map",
-    "static/js/2.9d401577.chunk.js": "/portfolio/static/js/2.9d401577.chunk.js",
-    "static/js/2.9d401577.chunk.js.map": "/portfolio/static/js/2.9d401577.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.13d86d61.chunk.css",
+    "main.js": "/portfolio/static/js/main.2abd6884.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.2abd6884.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.209c2d7e.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.209c2d7e.js.map",
+    "static/js/2.a8b39706.chunk.js": "/portfolio/static/js/2.a8b39706.chunk.js",
+    "static/js/2.a8b39706.chunk.js.map": "/portfolio/static/js/2.a8b39706.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "precache-manifest.def2629193f7ccef3ebd30a1814e4117.js": "/portfolio/precache-manifest.def2629193f7ccef3ebd30a1814e4117.js",
+    "precache-manifest.8ad24f4ea346519fe6ce1df818a23d47.js": "/portfolio/precache-manifest.8ad24f4ea346519fe6ce1df818a23d47.js",
     "service-worker.js": "/portfolio/service-worker.js",
-    "static/css/main.972ad1aa.chunk.css.map": "/portfolio/static/css/main.972ad1aa.chunk.css.map"
-  }
+    "static/css/main.13d86d61.chunk.css.map": "/portfolio/static/css/main.13d86d61.chunk.css.map",
+    "static/js/2.a8b39706.chunk.js.LICENSE.txt": "/portfolio/static/js/2.a8b39706.chunk.js.LICENSE.txt",
+    "static/media/CodePen.png": "/portfolio/static/media/CodePen.f28134af.png",
+    "static/media/nodejs-icon-logo-black-and-white.png": "/portfolio/static/media/nodejs-icon-logo-black-and-white.a4b0b16d.png",
+    "static/media/php-logo-black-and-white.png": "/portfolio/static/media/php-logo-black-and-white.41ba0cbf.png",
+    "static/media/python-5-logo-black-and-white.png": "/portfolio/static/media/python-5-logo-black-and-white.e17c671f.png",
+    "static/media/react-1-logo-black-and-white.png": "/portfolio/static/media/react-1-logo-black-and-white.8fb16b65.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.209c2d7e.js",
+    "static/js/2.a8b39706.chunk.js",
+    "static/css/main.13d86d61.chunk.css",
+    "static/js/main.2abd6884.chunk.js"
+  ]
 }
