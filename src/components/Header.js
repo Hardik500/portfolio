@@ -6,7 +6,7 @@ class Header extends React.Component {
       <React.Fragment>
         <div className="sides nav-right" id="navbar">
            <a href="#about" className="menu">About</a>
-           <a href="#portfolio" className="menu">Portfolio</a>
+           <a href="#projects" className="menu">Projects</a>
            <a href="#cont" className="menu">Contact</a>
         </div>
       </React.Fragment>
