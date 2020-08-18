@@ -1,34 +1,52 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="%PUBLIC_URL%/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="%PUBLIC_URL%/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="%PUBLIC_URL%/favicon-16x16.png"
+    />
+    <link rel="manifest" href="%PUBLIC_URL%/site.webmanifest" />
+    <title>Hardik Khandelwal | Web Dev</title>
+  </head>
 
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Hardik Khandelwal | Web Dev</title>
-</head>
+  <body>
+    <noscript>
+      You need Javascript to run this app.
+    </noscript>
+    <div id="main">
+      <!-- This is where our React app will go -->
+    </div>
 
-<body>
-  <noscript>
-    You need Javascript to run this app.
-  </noscript>
-  <div id="main">
-    <!-- This is where our React app will go -->
-  </div>
+    <script type="text/javascript">
+      window.onscroll = function () {
+        scrollFunction();
+      };
 
-<script type="text/javascript">
-  window.onscroll = function() {
-    scrollFunction()
-  };
-
-  function scrollFunction() {
-    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 100) {
-      document.getElementById("toTop").style.display = "block";
-    } else {
-      document.getElementById("toTop").style.display = "none";
-    }
-  }
-</script>
-
-</body>
-
+      function scrollFunction() {
+        if (
+          document.body.scrollTop > 20 ||
+          document.documentElement.scrollTop > 100
+        ) {
+          document.getElementById("toTop").style.display = "block";
+        } else {
+          document.getElementById("toTop").style.display = "none";
+        }
+      }
+    </script>
+  </body>
 </html>
