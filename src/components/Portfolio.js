@@ -9,6 +9,13 @@ const Portfolio = () => {
       <div className="projects">
         <div className="blocks">
           <PortfolioBlock
+            title="Xmeme"
+            description="A meme application where anyone can view, post, and update memes"
+            logo="react-1-logo-black-and-white.png"
+            tech="ReactJS"
+            github_url="https://github.com/Hardik500/Bookr"
+          />
+          <PortfolioBlock
             title="reddit-redefined"
             description="reddit: But with a bit of twist of UI supports only voting of
               posts"

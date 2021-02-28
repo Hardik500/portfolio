@@ -39,6 +39,12 @@ body::-webkit-scrollbar-thumb:hover {
   color: #fff;
 }
 
+@media (max-width: 950px) {
+  .header {
+    align-content: initial;
+  }
+}
+
 .header:before {
   content: "";
   width: 100%;
@@ -48,7 +54,7 @@ body::-webkit-scrollbar-thumb:hover {
   left: 0;
   background: #1b2030 url(https://unsplash.it/1999/999?image=1063) top center
     no-repeat;
-  -webkit-filter: brightness(70%);
+  --webkit-filter: brightness(70%);
   background-size: cover;
   background-attachment: fixed;
   animation: grow 60s linear 10ms infinite;
@@ -58,6 +64,19 @@ body::-webkit-scrollbar-thumb:hover {
 
 .header a {
   color: #eee;
+}
+
+.nav-right {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 10%;
+}
+
+@media (max-width: 1600px) {
+  .nav-right {
+    justify-content: center;
+    margin-right: 25%;
+  }
 }
 
 .menu {
@@ -312,14 +331,6 @@ textarea.input {
   background-color: #000;
 }
 
-.skills {
-  padding-left: 40px;
-}
-
-.projects {
-  padding-left: 40px;
-}
-
 .items {
   display: flex;
   flex-wrap: wrap;
@@ -332,7 +343,7 @@ textarea.input {
 
 .blocks {
   display: grid;
-  grid-template-columns: 300px 300px 300px;
+  grid-template-columns: repeat(4, 1fr);
   font-size: 20px;
 }
 
