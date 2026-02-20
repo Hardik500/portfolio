@@ -1,73 +1,44 @@
-# React + TypeScript + Vite
+# Hardik Khandelwal
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Frontend Engineer based in Bangalore, India. Building products that ship.
 
-Currently, two official plugins are available:
+![Portfolio](https://itshardik.com)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## About
 
-## React Compiler
+5+ years of experience building scalable web applications with React, TypeScript, and Node.js. Currently focused on developer tools and automation.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Tech Stack
 
-## Expanding the ESLint configuration
+- **Frontend:** React, TypeScript, Next.js, Vue.js, Tailwind CSS, Framer Motion
+- **Backend:** Node.js, Python, PostgreSQL, Supabase, REST APIs
+- **DevOps:** Git, Docker, AWS, CI/CD, Linux
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## Projects
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+### [everyday-expense-tracker](https://github.com/Hardik500/everyday-expense-tracker)
+Full-stack expense tracking application with analytics, goals, CSV import/export, and duplicate detection.
+- React + TypeScript + Supabase + Tailwind
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+### [quick-commerce-mcp](https://github.com/Hardik500/quick-commerce-mcp)
+Universal MCP server for aggregated quick commerce — compare prices across Zepto, Swiggy Instamart, Blinkit, and BigBasket.
+- TypeScript + MCP + Playwright + SQLite
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+### [pdf-to-excel-parser](https://github.com/Hardik500/pdf-to-excel-parser)
+PyPI package to convert PDF invoices to Excel automatically.
+- Python + PDF + OpenPyXL
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+### [ai-virtual-tryon](https://github.com/Hardik500/ai-virtual-tryon)
+AI-powered virtual try-on solution using diffusion models.
+- Python + Computer Vision + Diffusion Models
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+## Connect
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+- [GitHub](https://github.com/Hardik500)
+- [LinkedIn](https://linkedin.com/in/hardik500)
+- [Twitter](https://twitter.com/JohnnnyGat)
+- [Email](mailto:hardik500@gmail.com)
+
+## License
+
+MIT
