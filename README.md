@@ -2,7 +2,7 @@
 
 Frontend Engineer based in Bangalore, India. Building products that ship.
 
-![Portfolio](https://itshardik.com)
+[Portfolio](https://itshardik.com)
 
 ## About
 
