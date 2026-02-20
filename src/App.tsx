@@ -164,7 +164,7 @@ function App() {
               <a href="https://twitter.com/JohnnnyGat" target="_blank" rel="noopener noreferrer">
                 <Twitter size={22} />
               </a>
-              <a href="mailto:hardik500@gmail.com">
+              <a href="mailto:hardikkhandelwal500@gmail.com">
                 <Mail size={22} />
               </a>
             </div>
@@ -193,7 +193,7 @@ function App() {
                   <span className="prop">focus</span>: [<span className="string">"React"</span>, <span className="string">"TS"</span>],
                 </div>
                 <div className="code-line indent">
-                  <span className="prop">location</span>: <span className="string">"India"</span>,
+                  <span className="prop">location</span>: <span className="string">"Bangalore"</span>,
                 </div>
                 <div className="code-line indent">
                   <span className="prop">mode</span>: <span className="string">"shipping 🚀"</span>
@@ -372,7 +372,7 @@ function App() {
               If you're looking for an engineer who cares deeply about both the code and the people who use it,
               let's connect and build something extraordinary.
             </p>
-            <a href="mailto:hardik500@gmail.com" className="btn btn-primary large">
+            <a href="mailto:hardikkhandelwal500@gmail.com" className="btn btn-primary large">
               <Mail size={20} />
               Say hello
             </a>
