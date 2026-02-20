@@ -16,28 +16,28 @@ interface Repo {
 const projects = [
   {
     name: 'everyday-expense-tracker',
-    description: 'Full-stack expense tracking with analytics, goals, CSV import/export. React + Supabase + TypeScript.',
+    description: 'A comprehensive, full-stack financial dashboard designed to empower users with actionable spending analytics. Engineered with a focus on seamless data visualization, dynamic goal tracking, and robust backend data management.',
     tech: ['React', 'TypeScript', 'Supabase', 'Tailwind'],
     link: 'https://github.com/Hardik500/everyday-expense-tracker',
     gradient: 'from-emerald-500 to-teal-600'
   },
   {
     name: 'quick-commerce-mcp',
-    description: 'Universal MCP server aggregating Zepto, Swiggy, Blinkit, BigBasket. Compare prices in one place.',
+    description: 'An innovative aggregation tool bridging multiple platforms (Zepto, Swiggy, Blinkit, BigBasket). Built to optimize the consumer shopping experience by comparing real-time prices and inventory in a unified, accessible interface.',
     tech: ['TypeScript', 'MCP', 'Playwright', 'SQLite'],
     link: 'https://github.com/Hardik500/quick-commerce-mcp',
     gradient: 'from-orange-500 to-red-600'
   },
   {
     name: 'pdf-to-excel-parser',
-    description: 'PyPI package. Convert PDF invoices to Excel automatically. 100+ users.',
+    description: 'An open-source Python utility automating the tedious data entry process for invoices and financial documents. Gained strong traction with 100+ active users by simplifying complex PDF text extraction into structured Excel data.',
     tech: ['Python', 'PDF', 'OpenPyXL'],
     link: 'https://github.com/Hardik500/pdf-to-excel-parser',
     gradient: 'from-blue-500 to-indigo-600'
   },
   {
     name: 'ai-virtual-tryon',
-    description: 'AI-powered virtual try-on using diffusion models for e-commerce.',
+    description: 'A cutting-edge e-commerce solution leveraging advanced Diffusion models to create realistic virtual clothing try-ons. Demonstrates strong capability to integrate complex AI/Computer Vision models seamlessly into consumer-facing applications.',
     tech: ['Python', 'Computer Vision', 'Diffusion'],
     link: 'https://github.com/Hardik500/ai-virtual-tryon',
     gradient: 'from-purple-500 to-pink-600'
@@ -57,7 +57,7 @@ function App() {
   const [repos, setRepos] = useState<Repo[]>([]);
   const [mousePos, setMousePos] = useState({ x: 0, y: 0 });
   const { scrollYProgress } = useScroll();
-  
+
   const y1 = useTransform(scrollYProgress, [0, 1], [0, -200]);
   const y2 = useTransform(scrollYProgress, [0, 1], [0, 200]);
   const opacity = useTransform(scrollYProgress, [0, 0.3], [1, 0]);
@@ -80,13 +80,13 @@ function App() {
           .slice(0, 4);
         setRepos(sorted);
       })
-      .catch(() => {});
+      .catch(() => { });
   }, []);
 
   return (
     <div className="app">
       {/* Cursor follower */}
-      <motion.div 
+      <motion.div
         className="cursor-follower"
         animate={{ x: mousePos.x - 20, y: mousePos.y - 20 }}
         transition={{ type: 'tween', ease: 'backOut', duration: 0.1 }}
@@ -121,7 +121,7 @@ function App() {
             transition={{ duration: 0.8 }}
             className="hero-text"
           >
-            <motion.div 
+            <motion.div
               className="badge"
               initial={{ opacity: 0, scale: 0.8 }}
               animate={{ opacity: 1, scale: 1 }}
@@ -130,19 +130,18 @@ function App() {
               <Sparkles size={14} />
               <span>Open to work</span>
             </motion.div>
-            
+
             <h1 className="hero-title">
               Hardik<br />
               <span className="outline">Khandelwal</span>
             </h1>
-            
+
             <p className="hero-subtitle">
-              Frontend Engineer • Building products that <span className="highlight">ship</span>
+              Senior Frontend Engineer • <span className="highlight">Architecting</span> solutions that drive impact
             </p>
 
             <p className="hero-desc">
-              5+ years building scalable web apps with React, TypeScript & Node.js. 
-              Currently building developer tools & automation.
+              I'm a Senior Frontend Engineer transforming complex challenges into intuitive, high-performance web applications. I bridge the gap between robust technical architecture and seamless user design to build sustainable digital products.
             </p>
 
             <div className="hero-cta">
@@ -187,7 +186,7 @@ function App() {
                   <span className="keyword">const</span> <span className="var">me</span> = {'{'}
                 </div>
                 <div className="code-line indent">
-                  <span className="prop">role</span>: <span className="string">"Frontend Engineer"</span>,
+                  <span className="prop">role</span>: <span className="string">"Senior Frontend Engineer"</span>,
                 </div>
                 <div className="code-line indent">
                   <span className="prop">focus</span>: [<span className="string">"React"</span>, <span className="string">"TS"</span>],
@@ -212,7 +211,7 @@ function App() {
                   <div key={skill.name} className="skill-bar">
                     <span className="skill-name">{skill.name}</span>
                     <div className="skill-track">
-                      <motion.div 
+                      <motion.div
                         className="skill-fill"
                         initial={{ width: 0 }}
                         whileInView={{ width: `${skill.level}%` }}
@@ -226,9 +225,9 @@ function App() {
           </motion.div>
         </div>
 
-        <motion.div 
+        <motion.div
           className="scroll"
-          style={{ opacity }}
+          style={{ opacity } as any}
           animate={{ y: [0, 10, 0] }}
           transition={{ repeat: Infinity, duration: 2 }}
         >
@@ -319,21 +318,23 @@ function App() {
             viewport={{ once: true }}
             className="section-header"
           >
-            <h2 className="section-title">What I do</h2>
-            <p className="section-sub">Building with modern tools</p>
+            <h2 className="section-title">Engineering Arsenal & Expertise</h2>
+            <p className="section-sub">Bridging abstract systems and engaging interfaces</p>
           </motion.div>
 
           <div className="skills-grid">
             <div className="skill-category">
-              <h3><Code2 size={18} /> Frontend</h3>
+              <h3><Code2 size={18} /> Frontend Architecture</h3>
+              <p className="skill-desc" style={{ marginBottom: '1rem', fontSize: '0.9rem', opacity: 0.8 }}>Proficient in building scalable design systems and responsive interfaces that prioritize accessibility & performance.</p>
               <div className="skill-tags">
-                {['React', 'TypeScript', 'Next.js', 'Vue.js', 'Tailwind', 'Framer Motion'].map(s => (
+                {['React', 'TypeScript', 'Next.js', 'Tailwind', 'Framer Motion'].map(s => (
                   <span key={s}>{s}</span>
                 ))}
               </div>
             </div>
             <div className="skill-category">
-              <h3><Terminal size={18} /> Backend</h3>
+              <h3><Terminal size={18} /> Full-Stack Integration</h3>
+              <p className="skill-desc" style={{ marginBottom: '1rem', fontSize: '0.9rem', opacity: 0.8 }}>Experienced in connecting robust frontends to reliable backends, ensuring smooth data flow and state management.</p>
               <div className="skill-tags">
                 {['Node.js', 'Python', 'PostgreSQL', 'Supabase', 'REST APIs'].map(s => (
                   <span key={s}>{s}</span>
@@ -341,7 +342,8 @@ function App() {
               </div>
             </div>
             <div className="skill-category">
-              <h3><Zap size={18} /> DevOps & Tools</h3>
+              <h3><Zap size={18} /> Infrastructure & DevOps</h3>
+              <p className="skill-desc" style={{ marginBottom: '1rem', fontSize: '0.9rem', opacity: 0.8 }}>Dedicated to developer operations, continuous integration, and automated testing to ensure product quality.</p>
               <div className="skill-tags">
                 {['Git', 'Docker', 'AWS', 'CI/CD', 'Linux'].map(s => (
                   <span key={s}>{s}</span>
@@ -361,8 +363,14 @@ function App() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
           >
-            <h2>Let's work together</h2>
-            <p>Have a project in mind? Let's build something great.</p>
+            <h2>Let's Shape the Future of the Web Together</h2>
+            <p style={{ maxWidth: '700px', margin: '0 auto 2rem', lineHeight: 1.6, opacity: 0.9 }}>
+              I am driven by a passion for continuous learning and a vision to build digital experiences that empower and inspire.
+              Whether it's architecting a complex frontend system from scratch, optimizing performance for a global audience,
+              or mentoring a team to deliver a critical product, I bring dedication and technical excellence to every challenge.
+              If you're looking for an engineer who cares deeply about both the code and the people who use it,
+              let's connect and build something extraordinary.
+            </p>
             <a href="mailto:hardik500@gmail.com" className="btn btn-primary large">
               <Mail size={20} />
               Say hello
