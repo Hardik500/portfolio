@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react';
 import { motion, useScroll, useTransform } from 'framer-motion';
 import { Github, Linkedin, Twitter, Mail, ArrowRight, ExternalLink, Zap, Sparkles, Terminal, Code2 } from 'lucide-react';
+import './App.css';
 
 interface Repo {
   id: number;
