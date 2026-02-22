@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { motion, useScroll, useTransform } from 'framer-motion';
-import { Github, Linkedin, Twitter, Mail, ArrowRight, ExternalLink, Zap, Sparkles, Terminal, Code2 } from 'lucide-react';
+import { Github, Linkedin, Twitter, Mail, ArrowRight, ExternalLink, Zap, Sparkles, Code2 } from 'lucide-react';
 import './App.css';
 
 interface Repo {
@@ -325,28 +325,28 @@ function App() {
 
           <div className="skills-grid">
             <div className="skill-category">
-              <h3><Code2 size={18} /> Frontend Architecture</h3>
-              <p className="skill-desc" style={{ marginBottom: '1rem', fontSize: '0.9rem', opacity: 0.8 }}>Proficient in building scalable design systems and responsive interfaces that prioritize accessibility & performance.</p>
+              <h3><Code2 size={18} /> Frontend & UI Engineering</h3>
+              <p className="skill-desc" style={{ marginBottom: '1rem', fontSize: '0.9rem', opacity: 0.8 }}>Proficient in building scalable design systems, smooth animations, and responsive interfaces that prioritize user experience.</p>
               <div className="skill-tags">
-                {['React', 'TypeScript', 'Next.js', 'Tailwind', 'Framer Motion'].map(s => (
+                {['React', 'TypeScript', 'Tailwind', 'Framer Motion', 'Component Design'].map(s => (
                   <span key={s}>{s}</span>
                 ))}
               </div>
             </div>
             <div className="skill-category">
-              <h3><Terminal size={18} /> Full-Stack Integration</h3>
-              <p className="skill-desc" style={{ marginBottom: '1rem', fontSize: '0.9rem', opacity: 0.8 }}>Experienced in connecting robust frontends to reliable backends, ensuring smooth data flow and state management.</p>
+              <h3><Sparkles size={18} /> AI & Full-Stack Integration</h3>
+              <p className="skill-desc" style={{ marginBottom: '1rem', fontSize: '0.9rem', opacity: 0.8 }}>Experienced in connecting robust frontends to reliable backends, integrating Generative AI, and managing real-time data flow.</p>
               <div className="skill-tags">
-                {['Node.js', 'Python', 'PostgreSQL', 'Supabase', 'REST APIs'].map(s => (
+                {['Node.js', 'Python', 'Generative AI', 'Supabase', 'REST APIs'].map(s => (
                   <span key={s}>{s}</span>
                 ))}
               </div>
             </div>
             <div className="skill-category">
-              <h3><Zap size={18} /> Infrastructure & DevOps</h3>
-              <p className="skill-desc" style={{ marginBottom: '1rem', fontSize: '0.9rem', opacity: 0.8 }}>Dedicated to developer operations, continuous integration, and automated testing to ensure product quality.</p>
+              <h3><Zap size={18} /> Systems & Architecture</h3>
+              <p className="skill-desc" style={{ marginBottom: '1rem', fontSize: '0.9rem', opacity: 0.8 }}>Dedicated to system architecture, performance optimization, workflow automation, and maintaining robust tooling.</p>
               <div className="skill-tags">
-                {['Git', 'Docker', 'AWS', 'CI/CD', 'Linux'].map(s => (
+                {['Performance', 'Automations', 'WebRTC', 'Git', 'CI/CD'].map(s => (
                   <span key={s}>{s}</span>
                 ))}
               </div>
