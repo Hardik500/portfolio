@@ -23,24 +23,24 @@ const projects = [
     gradient: 'from-emerald-500 to-teal-600'
   },
   {
-    name: 'quick-commerce-mcp',
-    description: 'An innovative aggregation tool bridging multiple platforms (Zepto, Swiggy, Blinkit, BigBasket). Built to optimize the consumer shopping experience by comparing real-time prices and inventory in a unified, accessible interface.',
-    tech: ['TypeScript', 'MCP', 'Playwright', 'SQLite'],
-    link: 'https://github.com/Hardik500/quick-commerce-mcp',
+    name: 'groww-tax-gain-harvester',
+    description: 'A specialized tool to automate harvesting tax gains for the Groww portfolio. Streamlines financial decision-making for retail investors.',
+    tech: ['JavaScript', 'React', 'Finance Automation'],
+    link: 'https://github.com/Hardik500/groww-tax-gain-harvester',
     gradient: 'from-orange-500 to-red-600'
   },
   {
-    name: 'pdf-to-excel-parser',
-    description: 'An open-source Python utility automating the tedious data entry process for invoices and financial documents. Gained strong traction with 100+ active users by simplifying complex PDF text extraction into structured Excel data.',
-    tech: ['Python', 'PDF', 'OpenPyXL'],
-    link: 'https://github.com/Hardik500/pdf-to-excel-parser',
+    name: 'markdown-typewriter-react',
+    description: 'A customizable React component that renders markdown with a smooth typewriter effect. Built for robust developer experiences and dynamic interfaces.',
+    tech: ['TypeScript', 'React', 'Component Design'],
+    link: 'https://github.com/Hardik500/markdown-typewriter-react',
     gradient: 'from-blue-500 to-indigo-600'
   },
   {
-    name: 'ai-virtual-tryon',
-    description: 'A cutting-edge e-commerce solution leveraging advanced Diffusion models to create realistic virtual clothing try-ons. Demonstrates strong capability to integrate complex AI/Computer Vision models seamlessly into consumer-facing applications.',
-    tech: ['Python', 'Computer Vision', 'Diffusion'],
-    link: 'https://github.com/Hardik500/ai-virtual-tryon',
+    name: 'real-character.ai',
+    description: 'An interactive AI character application featuring a robust backend infrastructure and an engaging conversational frontend experience.',
+    tech: ['TypeScript', 'AI', 'React'],
+    link: 'https://github.com/Hardik500/Real-Character.AI',
     gradient: 'from-purple-500 to-pink-600'
   }
 ];
@@ -48,10 +48,10 @@ const projects = [
 const skills = [
   { name: 'React', level: 95 },
   { name: 'TypeScript', level: 90 },
-  { name: 'Node.js', level: 85 },
-  { name: 'PostgreSQL', level: 80 },
-  { name: 'AWS', level: 75 },
-  { name: 'Docker', level: 70 },
+  { name: 'AI Integration', level: 85 },
+  { name: 'UI/UX Engineering', level: 80 },
+  { name: 'Frontend Architecture', level: 75 },
+  { name: 'Node.js', level: 60 },
 ];
 
 function App() {
